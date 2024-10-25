@@ -1,0 +1,255 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/"
+    },
+    {
+      "memberOf": "http://pcdm.org/models#memberOf"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Project",
+      "name": "python-intermediate-inflammation",
+      "description": "This is a template software project repository used by the Intermediate Research Software Development Skills In Python.",
+      "datePublished": "2022-09-16",
+      "license": [
+        {
+          "@id": "#Dataset-1"
+        },
+        {
+          "@id": "#CreativeWork-1"
+        }
+      ],
+      "author": {
+        "@id": "#Steve_Crouch-1"
+      },
+      "hasPart": [
+        {
+          "@id": "data/inflammation-01.csv"
+        },
+        {
+          "@id": "data/inflammation-02.csv"
+        },
+        {
+          "@id": "data/inflammation-03.csv"
+        },
+        {
+          "@id": "data/inflammation-04.csv"
+        },
+        {
+          "@id": "data/inflammation-05.csv"
+        },
+        {
+          "@id": "data/inflammation-06.csv"
+        },
+        {
+          "@id": "data/inflammation-07.csv"
+        },
+        {
+          "@id": "data/inflammation-08.csv"
+        },
+        {
+          "@id": "data/inflammation-09.csv"
+        },
+        {
+          "@id": "data/inflammation-10.csv"
+        },
+        {
+          "@id": "data/inflammation-11.csv"
+        },
+        {
+          "@id": "data/inflammation-12.csv"
+        },
+        {
+          "@id": "data/python-novice-inflammation-data.zip"
+        },
+        {
+          "@id": "data/small-01.csv"
+        },
+        {
+          "@id": "data/small-02.csv"
+        },
+        {
+          "@id": "data/small-03.csv"
+        },
+        {
+          "@id": "inflammation/models.py"
+        },
+        {
+          "@id": "inflammation/views.py"
+        },
+        {
+          "@id": "inflammation/__init__.py"
+        },
+        {
+          "@id": "inflammation-analysis.py"
+        },
+        {
+          "@id": "inflammation.ipynb"
+        },
+        {
+          "@id": "LICENCE.md"
+        },
+        {
+          "@id": "README.md"
+        },
+        {
+          "@id": "requirements.txt"
+        },
+        {
+          "@id": "ro-crate-preview.html"
+        },
+        {
+          "@id": "tests/test_models.py"
+        },
+        {
+          "@id": "tests/test_patient.py"
+        }
+      ]
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "#Dataset-1",
+      "@type": "Dataset",
+      "name": "Dataset-1",
+      "author": {
+        "@id": "#Aleksandra_Nenadic-1"
+      }
+    },
+    {
+      "@id": "#Aleksandra_Nenadic-1",
+      "@type": "Person",
+      "name": "Aleksandra_Nenadic-1",
+      "familyName": ""
+    },
+    {
+      "@id": "#CreativeWork-1",
+      "@type": "CreativeWork",
+      "name": "CreativeWork-1"
+    },
+    {
+      "@id": "#Steve_Crouch-1",
+      "@type": "Person",
+      "name": "Steve_Crouch-1"
+    },
+    {
+      "@id": "data/inflammation-01.csv",
+      "@type": "File",
+      "name": ""
+    },
+    {
+      "@id": "data/inflammation-02.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-03.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-04.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-05.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-06.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-07.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-08.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-09.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-10.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-11.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-12.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/python-novice-inflammation-data.zip",
+      "@type": "File"
+    },
+    {
+      "@id": "data/small-01.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/small-02.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/small-03.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "inflammation/models.py",
+      "@type": "File"
+    },
+    {
+      "@id": "inflammation/views.py",
+      "@type": "File"
+    },
+    {
+      "@id": "inflammation/__init__.py",
+      "@type": "File"
+    },
+    {
+      "@id": "inflammation-analysis.py",
+      "@type": "File"
+    },
+    {
+      "@id": "inflammation.ipynb",
+      "@type": "File"
+    },
+    {
+      "@id": "LICENCE.md",
+      "@type": "File"
+    },
+    {
+      "@id": "README.md",
+      "@type": "File"
+    },
+    {
+      "@id": "requirements.txt",
+      "@type": "File"
+    },
+    {
+      "@id": "ro-crate-preview.html",
+      "@type": "File"
+    },
+    {
+      "@id": "tests/test_models.py",
+      "@type": "File"
+    },
+    {
+      "@id": "tests/test_patient.py",
+      "@type": "File"
+    }
+  ]
+}
